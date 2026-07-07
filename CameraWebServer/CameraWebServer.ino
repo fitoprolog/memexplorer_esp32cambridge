@@ -31,12 +31,9 @@
 //#define CAMERA_MODEL_DFRobot_FireBeetle2_ESP32S3 // Has PSRAM
 //#define CAMERA_MODEL_DFRobot_Romeo_ESP32S3 // Has PSRAM
 #include "camera_pins.h"
+/*Create a credential.h with the constants */
+#include "credentials.h"
 
-// ===========================
-// Enter your WiFi credentials
-// ===========================
-const char* ssid = "\\O/wola";
-const char* password = "SurLaVelilsxipo73*";
 
 void startCameraServer();
 void setupLedFlash(int pin);
